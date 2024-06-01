@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nether Esports</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Montserrat, sans-serif;
+    }
+
+    .header-image {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      filter: brightness(0.9);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .container {
+      position: absolute;
+      right: 7cm;
+      top: 1cm;
+      font-size: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .Logo {
+      position: absolute;
+      left: 2cm;
+      top: 1cm;
+    }
+
+    .menu-link {
+      color: white;
+      text-decoration: none;
+      margin-left: 1cm;
+    }
+
+    .menu-link:hover {
+      text-decoration: underline;
+    }
+
+    .news-title {
+      position: absolute;
+      top: 20%;
+      left: 51%;
+      transform: translateX(-50%);
+      font-size: 36px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .news-panel {
+      position: absolute;
+      display: inline-block;
+      width: 20%;
+      margin: 1cm;
+      vertical-align: top;
+      box-sizing: border-box;
+      z-index: 1;
+    }
+
+    .news-panel .content-box {
+      border: 1px solid #ccc;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      color: white;
+      box-sizing: border-box;
+    }
+
+    .news-panel h2 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .news-panel img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .news-panel p {
+      line-height: 1.5;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .read-more-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .read-more-btn:hover {
+      background-color: #ccc;
+    }
+
+    /* Positioning the news panels */
+    .news-panel1 {
+      top: 30%;
+      left: 16%;
+    }
+
+    .news-panel2 {
+      top: 30%;
+      left: 39%;
+    }
+
+    .news-panel3 {
+      top: 30%;
+      left: 62%;
+    }
+    .menu-link.active {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <img class="header-image" src="/img/stock-photo-abstract-texture-white-orange-swirls-paint.jpg">
+  <div class="container">
+
+    <div>
+        <a class="menu-link active" href="">Home</a>
+      <a class="menu-link" href="Team.html">Teams</a>
+      <a class="menu-link" href="">Contact</a>
+      <a class="menu-link" href="">About</a>
+    </div>
+
+  </div>
+
+  <img class="Logo" src="img/Nether (3).png">
+
+  <div class="news-title">News</div>
+
+  <div class="news-panel news-panel1">
+    <div class="content-box"> 
+      <h2>Gründung!</h2>
+      <img src="https://placehold.co/300x200" alt="Platzhalterbild">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec laoreet orci, ac ullamcorper quam. Sed et quam eget ipsum faucibus tincidunt. Donec euismod lectus ut tellus semper, quis ullamcorper quam faucibus.</p>
+      <a href="#" class="read-more-btn">Read More</a>
+    </div>
+  </div>
+
+  <div class="news-panel news-panel2">
+    <div class="content-box">
+      <h2>Finni erschlägt Frauen!</h2>
+      <img src="https://placehold.co/300x200" alt="Platzhalterbild">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec laoreet orci, ac ullamcorper quam. Sed et quam eget ipsum faucibus tincidunt. Donec euismod lectus ut tellus semper, quis ullamcorper quam faucibus.</p>
+      <a href="#" class="read-more-btn">Read More</a>
+    </div>
+  </div>
+
+  <div class="news-panel news-panel3">
+    <div class="content-box">
+      <h2>Finni ist ein Hurensohn!</h2>
+      <img src="https://placehold.co/300x200" alt="Platzhalterbild">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec laoreet orci, ac ullamcorper quam. Sed et quam eget ipsum faucibus tincidunt. Donec euismod lectus ut tellus semper, quis ullamcorper quam faucibus.</p>
+      <a href="#" class="read-more-btn">Read More</a>
+    </div>
+  </div>
+</body>
+</html>

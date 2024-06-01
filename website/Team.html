@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nether Esports</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Montserrat, sans-serif;
+    }
+
+    .header-image {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      filter: brightness(0.9);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .container {
+      position: absolute;
+      right: 7cm;
+      top: 1cm;
+      font-size: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .Logo {
+      position: absolute;
+      left: 2cm;
+      top: 1cm;
+    }
+
+    .menu-link {
+      color: white;
+      text-decoration: none;
+      margin-left: 1cm;
+    }
+
+    .menu-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Style for the active page link */
+    .menu-link.active {
+      text-decoration: underline;
+    }
+
+    /* Styles for the placeholder images and captions */
+    .placeholder-gallery {
+      position: absolute;
+      top: 70%; /* Adjusted this value to move the gallery up */
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap; /* Enable wrapping */
+      justify-content: flex-start; /* Start placing items from the left */
+    }
+
+    
+
+    .placeholder-gallery .placeholder {
+      text-align: center;
+      width: calc(20% - 10px); /* Adjusted width to account for the maximum 1 cm gap */
+      margin: 5px; /* Set margin to create the gap */
+    }
+
+    .placeholder-gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    .placeholder-gallery p {
+      margin-top: 10px;
+      color: white;
+      font-size: 34px;
+      font-family: Montserrat, sans-serif;
+    }
+
+    /* Meet the Team title */
+    .team-title {
+      position: absolute;
+      top: 20%;
+      left: 51%;
+      transform: translateX(-50%);
+      font-size: 36px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <img class="header-image" src="/img/stock-photo-abstract-texture-white-orange-swirls-paint.jpg">
+  <div class="container">
+    <div>
+      <a class="menu-link" href="index.html">Home</a>
+      <a class="menu-link active" href="Team.html">Teams</a>
+      <a class="menu-link" href="">Contact</a>
+      <a class="menu-link" href="">About</a>
+    </div>
+  </div>
+  <img class="Logo" src="img/Nether (3).png">
+  
+  <!-- Meet the Team title -->
+  
+  
+  <div class="placeholder-gallery">
+    <div class="placeholder">
+      <img src="https://placehold.co/200x300" alt="Platzhalterbild">
+      <p>Paul</p>
+    </div>
+    <div class="placeholder ">
+      <img src="https://placehold.co/200x300" alt="Platzhalterbild">
+      <p>Paul</p>
+    </div>
+    <div class="placeholder">
+      <img src="https://placehold.co/200x300" alt="Platzhalterbild">
+      <p>Paul</p>
+    </div>
+    <div class="placeholder ">
+      <img src="https://placehold.co/200x300" alt="Platzhalterbild">
+      <p>Paul</p>
+    </div>
+    <div class="placeholder">
+      <img src="https://placehold.co/200x300" alt="Platzhalterbild">
+      <p>Paul</p>
+    </div>
+  </div>
+  <p class="team-title">Meet the Team</p>
+
+
+  </div>
+</body>
+</html>
+
+</body>
+</html>
